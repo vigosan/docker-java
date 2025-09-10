@@ -1,4 +1,4 @@
-# Java Development with Docker + Zed
+# Java Development with Docker
 
 Java programming without installing anything on your Mac.
 
