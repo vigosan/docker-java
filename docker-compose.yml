@@ -1,0 +1,26 @@
+services:
+  java-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: java-dev
+    restart: unless-stopped
+    environment:
+      - JAVA_OPTS=-Xmx512m -Xms256m
+    volumes:
+      # Mount your code directory to the container
+      - .:/workspace
+      # Persist compiled classes between restarts
+      - build-cache:/workspace/build
+    working_dir: /workspace
+    stdin_open: true
+    tty: true
+    networks:
+      - dev-network
+
+volumes:
+  build-cache:
+
+networks:
+  dev-network:
+    driver: bridge
