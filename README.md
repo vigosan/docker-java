@@ -18,7 +18,7 @@ make run FILE=Practice01   # Run Practice01
 
 ## 💻 Workflow
 
-1. **Edit**: Modify `practices/Practice01.java` in Zed
+1. **Edit**: Modify `practices/Practice01.java`
 2. **Run**: `make run FILE=Practice01` (compiles and runs automatically)
 
 ## 🛠 Commands
@@ -34,7 +34,7 @@ make run FILE=Practice01   # Run Practice01
 # 1. Start
 make dev
 
-# 2. Edit practices/Practice01.java in Zed
+# 2. Edit practices/Practice01.java
 # 3. Run
 make run FILE=Practice01
 ```
