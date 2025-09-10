@@ -2,6 +2,15 @@
 
 Java programming without installing anything on your Mac.
 
+## 🍴 Getting Started
+
+```bash
+# 1. Fork this repository on GitHub (click Fork button)
+# 2. Clone your fork to your Mac
+git clone git@github.com:YOUR_USERNAME/docker-java.git
+cd docker-java
+```
+
 ## 🚀 Quick Start
 
 ```bash
